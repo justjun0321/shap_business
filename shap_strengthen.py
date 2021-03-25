@@ -4,22 +4,6 @@ import numpy as np
 import pandas as pd
 import requests
 
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import StratifiedKFold, GridSearchCV
-from sklearn.metrics import (
-    roc_curve,
-    auc,
-    roc_auc_score,
-    precision_recall_curve,
-    make_scorer,
-    confusion_matrix,
-    accuracy_score,
-    precision_score,
-    recall_score,
-    precision_recall_curve,
-)
-
-from sklearn.ensemble import RandomForestClassifier
 import shap
 
 shap.initjs()
